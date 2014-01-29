@@ -1,17 +1,17 @@
-
-.menu_links
-{
-	color: white;
-	display: inline-block;
-	font-size: 1em;
-	font-family: Garamond;
-}
-
 body
 {
 	margin: 0;
 	margin-top: 3em;
-	background-color: white;
+}
+
+#body_index
+{
+	background-color: black;
+}
+
+#body_about
+{
+	background-color: purple;
 }
 
 #header
@@ -41,6 +41,27 @@ body
 	margin: 0;
 }
 
+.menu_links
+{
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	font-family: Garamond;
+}
+
+a
+{
+	color: white;
+}
+a:visited
+{
+	color: green;
+}
+a:hover
+{
+	color.red;
+}
+
 small
 {
 	font-size: 10px;
@@ -49,4 +70,13 @@ small
 span
 {
 	color: yellow;
+}
+
+h1
+{
+	margin: 0;
+}
+p
+{
+	margin: 0;
 }
