@@ -41,7 +41,7 @@ body
 	margin: 0;
 }
 
-.menu_links
+#links
 {
 	color: white;
 	display: inline-block;
