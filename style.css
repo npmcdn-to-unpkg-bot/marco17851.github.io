@@ -141,3 +141,8 @@ body
 {
 	display: none;
 }
+
+#main_content > #main
+{
+	display: block;
+}
