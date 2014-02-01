@@ -1,3 +1,15 @@
+window.onload = function start()
+{
+    loadImage();
+}
+
+function enterSite()
+{
+	hidden=document.getElementById("screen")
+	hidden.style.display = "none";
+	showMain()
+}
+
 function showMain()
 {
 	hidden=document.getElementById("main")
@@ -44,4 +56,24 @@ function showContacts()
 	hidden.style.display = "none";
 	hidden=document.getElementById("contact")
 	hidden.style.display = "block";
+}
+
+function loadImage()
+{
+	var num = 0;
+	var folder = "images/screenImages/";
+	var pics = new Array();
+	
+	pics[0] = "notre_dame.jpg";
+	pics[1] = "eiffel_tower.jpg";
+	pics[2] = "louvre.jpg";
+	pics[3] = "fnac_view.jpg";
+	
+	picture = document.getElementById("screenImg");
+	
+    window.setInterval(function()
+    {
+        num = (num + 1) % 4;
+		picture.src = folder.concat(pics[num]);
+    }, 5000);
 }
