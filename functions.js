@@ -1,6 +1,18 @@
 window.onload = function start()
 {
     loadImage();
+    
+    document.getElementById("enterBtn").onclick=function()
+    {
+        var p=document.getElementById("screen");
+        p.style.opacity= "0";
+        
+        window.setTimeout(function(){
+        if (document.getElementById("screen").style.opacity == "0")
+    	{
+    		enterSite();
+    	}}, 2000);
+    };
 }
 
 function enterSite()
