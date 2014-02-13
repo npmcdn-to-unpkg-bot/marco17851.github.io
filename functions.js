@@ -26,48 +26,80 @@ function showMain()
 {
 	hidden=document.getElementById("main")
 	hidden.style.display = "block";
+	document.getElementById("main_content").style.background = "lavender";
+	document.getElementById("mainLink").style.background = "lavender";
+	//document.getElementById("border").style.border = "lavender";
+		
 	hidden=document.getElementById("about")
 	hidden.style.display = "none";
+	document.getElementById("aboutLink").style.background = "none";
+	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "none";
+	document.getElementById("projectsLink").style.background = "none";
+	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "none";
+	document.getElementById("contactLink").style.background = "none";
 }
 
 function showAbout()
 {
 	hidden=document.getElementById("main")
 	hidden.style.display = "none";
-	hidden=document.getElementById("about")  //Find the element 
+	document.getElementById("mainLink").style.background = "none";
+	
+	hidden=document.getElementById("about")
 	hidden.style.display = "block";
+	document.getElementById("main_content").style.background = "lightblue";
+	document.getElementById("aboutLink").style.background = "lightblue";
+	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "none";
+	document.getElementById("projectsLink").style.background = "none";
+	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "none";
+	document.getElementById("contactLink").style.background = "none";
 }
 
 function showProjects()
 {
 	hidden=document.getElementById("main")
 	hidden.style.display = "none";
-	hidden=document.getElementById("about")  //Find the element 
+	document.getElementById("mainLink").style.background = "none";
+	hidden=document.getElementById("about")
 	hidden.style.display = "none";
+	document.getElementById("aboutLink").style.background = "none";
+	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "block";
+	document.getElementById("main_content").style.background = "lightgreen";
+	document.getElementById("projectsLink").style.background = "lightgreen";
+	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "none";
+	document.getElementById("contactLink").style.background = "none";
 }
 
 function showContacts()
 {
 	hidden=document.getElementById("main")
 	hidden.style.display = "none";
-	hidden=document.getElementById("about")  //Find the element 
+	document.getElementById("mainLink").style.background = "none";
+	
+	hidden=document.getElementById("about")
 	hidden.style.display = "none";
+	document.getElementById("aboutLink").style.background = "none";
+	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "none";
+	document.getElementById("projectsLink").style.background = "none";
+	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "block";
+	document.getElementById("main_content").style.background = "lightyellow";
+	document.getElementById("contactLink").style.background = "lightyellow";
 }
 
 function loadImage()
@@ -87,5 +119,5 @@ function loadImage()
     {
         num = (num + 1) % 4;
 		picture.src = folder.concat(pics[num]);
-    }, 5000);
+    }, 2500);
 }

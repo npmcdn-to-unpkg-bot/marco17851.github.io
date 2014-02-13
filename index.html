@@ -10,21 +10,22 @@
 	<script src="functions.js"></script>
 	<div id="header">
 		<div id="links">
-			<p onClick="showMain()">Main</p>
-			<p onClick="showAbout()">About</p>
-			<p onClick="showProjects()">Project</p>
-			<p onClick="showContacts()">Contact</p>
+			<p id="mainLink" onClick="showMain()">Main</p>
+			<p id="aboutLink" onClick="showAbout()">About</p>
+			<p id="projectsLink" onClick="showProjects()">Projects</p>
+			<p id="contactLink" onClick="showContacts()">Contact</p>
 		</div>
 	</div>
 	<span id="border"></span>
 	<div id="main_content">
 		<div id="main">
-			<h1 id="welcome">Welcome to the here</h1>
-			<p>Enjoy your stay?</p>
+			<h1 id="welcome">Wilkommen</h1>
+			<p>Wie geht es Ihnen?</p>
 		</div>
 		<div id="about">
-			<h1>Who am <em>I</em>?</h1>
-			<p>I like chickens because they are cute and fluffy. :D</p>
+			<h1 alt="Who are you? What is life? I don't know...">Who am <em>I</em>?</h1>
+			<p>Ich habe Hunger.</p>
+			<p>Aber mir geht's gut.
 		</div>
 		<div id="projects">
 			<h1>Cur<span title="Help me pay my rent">rent</span> Projects</h1>
@@ -39,7 +40,9 @@
 		</div>
 	</div>
 	<div id="screen">
-		<img id="screenImg" src="images/screenImages/fnac_view.jpg" alt="Image of Paris"></img>
+		<div id="imgBox">
+			<img id="screenImg" src="images/screenImages/fnac_view.jpg" alt="Image of Paris"></img>
+		</div>
 		<div id="enterBtn">
 			<p>Click to Enter</p>
 		</div>
