@@ -2,28 +2,27 @@
 <html>
 <head>
 	<title>Where are the chickens?</title>
-	<!--link rel="stylesheet" type="text/css" href="mystyle.css"-->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="abc.css">
 </head>
 
 <body id="body_index">
 	<script src="functions.js"></script>
 	<div id="header">
 		<div id="links">
-			<p id="mainLink" onClick="showMain()">Main</p>
+			<p id="mainLink" onClick="showMain()" style="background-color: lavender;">Main</p>
 			<p id="aboutLink" onClick="showAbout()">About</p>
 			<p id="projectsLink" onClick="showProjects()">Projects</p>
 			<p id="contactLink" onClick="showContacts()">Contact</p>
 		</div>
 	</div>
-	<span id="border"></span>
+	<div id="border"></div>
 	<div id="main_content">
 		<div id="main">
 			<h1 id="welcome">Wilkommen</h1>
 			<p>Wie geht es Ihnen?</p>
 		</div>
 		<div id="about">
-			<h1 alt="Who are you? What is life? I don't know...">Who am <em>I</em>?</h1>
+			<h1 title="Who are you? What is life? I don't know...">Who am <em>I</em>?</h1>
 			<p>Ich habe Hunger.</p>
 			<p>Aber mir geht's gut.
 		</div>
@@ -41,7 +40,7 @@
 	</div>
 	<div id="screen">
 		<div id="imgBox">
-			<img id="screenImg" src="images/screenImages/fnac_view.jpg" alt="Image of Paris"></img>
+			<img id="screenImg" src="images/screenImages/fnac_view.jpg" title="Image of Paris"></img>
 		</div>
 		<div id="enterBtn">
 			<p>Click to Enter</p>
