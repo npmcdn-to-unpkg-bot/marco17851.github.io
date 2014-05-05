@@ -117,7 +117,7 @@ function loadImage()
 	
     window.setInterval(function()
     {
-        num = (num + 1) % 4;
-		picture.src = folder.concat(pics[num]);
+        picNum = (picNum + 1) % 4;
+		picture.src = folder.concat(pics[picNum]);
     }, 2500);
 }
