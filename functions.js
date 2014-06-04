@@ -117,5 +117,6 @@ function loadImage()
     {
         picNum = (picNum + 1) % 4;
 		picture.src = folder.concat(pics[picNum]);
+		//document.getElementById("screen").style.backgroundImage = 'url('+picture.src+')';
     }, 2500);
 }
