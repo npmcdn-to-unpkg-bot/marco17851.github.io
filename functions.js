@@ -4,14 +4,12 @@ window.onload = function start()
     
     document.getElementById("enterBtn").onclick=function()
     {
-        var p=document.getElementById("screen");
-        p.style.opacity= "0";
+        var homeScreen = document.getElementById("screen");
+        homeScreen.style.opacity= "0";
         
         window.setTimeout(function(){
-        if (document.getElementById("screen").style.opacity == "0")
-    	{
     		enterSite();
-    	}}, 2000);
+    	}, 2000);
     };
 }
 
@@ -26,9 +24,9 @@ function showMain()
 {
 	hidden=document.getElementById("main")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lavender";
-	document.getElementById("mainLink").style.background = "lavender";
-	//document.getElementById("border").style.border = "lavender";
+	
+	document.getElementById("main_content").style.background = "#FA5882";
+	document.getElementById("mainLink").style.background = "#FA5882";
 		
 	hidden=document.getElementById("about")
 	hidden.style.display = "none";
@@ -51,8 +49,8 @@ function showAbout()
 	
 	hidden=document.getElementById("about")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lightblue";
-	document.getElementById("aboutLink").style.background = "lightblue";
+	document.getElementById("main_content").style.background = "lightgreen";
+	document.getElementById("aboutLink").style.background = "lightgreen";
 	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "none";
@@ -74,8 +72,8 @@ function showProjects()
 	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lightgreen";
-	document.getElementById("projectsLink").style.background = "lightgreen";
+	document.getElementById("main_content").style.background = "lightblue";
+	document.getElementById("projectsLink").style.background = "lightblue";
 	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "none";
@@ -98,13 +96,13 @@ function showContacts()
 	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lightyellow";
-	document.getElementById("contactLink").style.background = "lightyellow";
+	document.getElementById("main_content").style.background = "violet";
+	document.getElementById("contactLink").style.background = "violet";
 }
 
 function loadImage()
 {
-	var num = 0;
+	var picNum = 0;
 	var folder = "images/screenImages/";
 	var pics = new Array();
 	
