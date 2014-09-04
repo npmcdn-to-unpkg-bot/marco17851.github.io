@@ -38,6 +38,7 @@ function showSection(num)
 		show.style.display = "none";
 		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 	}
+	/*
 	if (num == 3){
 		header=document.getElementById("contact_link");
 		show=document.getElementById("contact_section");
@@ -53,5 +54,5 @@ function showSection(num)
 		show=document.getElementById("contact_section");
 		show.style.display = "none";
 		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
-	}
+	}*/
 }

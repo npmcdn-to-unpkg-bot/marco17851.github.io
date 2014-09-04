@@ -52,21 +52,16 @@
 				</div>
 			</div>
 			<div id='contact_link' class='main_link' onClick='showSection(3)'>
-				<p>Contact</p>
+				<p>Contact Me</p>
 
 				<form action='send_message.asp' autocomplete='on'>
-					First Name:<input type='text' name='first_name'><br>
-					Last Name:<input type='text' name='last_name'><br>
-					Email:<input type='email' name='email' autocomplete='off'><br>
+					First Name:<input type='text' name='first_name' required><br>
+					Last Name:<input type='text' name='last_name' required><br>
+					Email:<input type='email' name='email' autocomplete='off' required><br>
+					Phone:<input type='tel' name='telephone' required><br>
+					Message:<input type='text' name='message' required><br>
 					<input type='submit'>
 				</form>
-
-				<div id='contact_section' class='sections'>
-					<p>Name</p>
-					<p>Email:</p>
-					<p>Phone:</p>
-					<p>Message:</p>
-				</div>
 			</div>
 		</div>
 	</div>
