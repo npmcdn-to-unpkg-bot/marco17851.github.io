@@ -1,63 +1,57 @@
 window.onload = function start()
 {
-    //loadImage();
+
 }
 
 function showSection(num)
 {
+	var header, show;
 	if (num == 1){
-		show=document.getElementById("about_section")
+		header=document.getElementById("about_link");
+		show=document.getElementById("about_section");
 		if (show.style.display == "none"){
 			show.style.display = "block";
+			header.style.backgroundColor = 'rgba(120, 140, 140, 0.9)';
 		} else {
 			show.style.display = "none";
+			header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 		}
 	} else {
-		show=document.getElementById("about_section")
+		header=document.getElementById("about_link");
+		show=document.getElementById("about_section");
 		show.style.display = "none";
+		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 	}
 	if (num == 2){
-		show=document.getElementById("project_section")
+		header=document.getElementById("project_link");
+		show=document.getElementById("project_section");
 		if (show.style.display == "none"){
 			show.style.display = "block";
-
+			header.style.backgroundColor = 'rgba(120, 140, 140, 0.9)';
 		} else {
 			show.style.display = "none";
+			header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 		}
 	} else {
-		show=document.getElementById("project_section")
+		header=document.getElementById("project_link");
+		show=document.getElementById("project_section");
 		show.style.display = "none";
+		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 	}
 	if (num == 3){
-		show=document.getElementById("contact_section")
+		header=document.getElementById("contact_link");
+		show=document.getElementById("contact_section");
 		if (show.style.display == "none"){
 			show.style.display = "block";
-
+			header.style.backgroundColor = 'rgba(120, 140, 140, 0.9)';
 		} else {
 			show.style.display = "none";
+			header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 		}
 	} else {
-		show=document.getElementById("contact_section")
+		header=document.getElementById("contact_link");
+		show=document.getElementById("contact_section");
 		show.style.display = "none";
+		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 	}
-}
-
-function loadImage()
-{
-	var picNum = 0;
-	var folder = "images/screenImages/";
-	var pics = new Array();
-	
-	pics[0] = "notre_dame.jpg";
-	pics[1] = "eiffel_tower.jpg";
-	pics[2] = "louvre.jpg";
-	pics[3] = "fnac_view.jpg";
-	
-	picture = document.getElementById("main_screen");
-	
-    window.setInterval(function()
-    {
-        picNum = (picNum + 1) % 4;
-		picture.src = folder.concat(pics[picNum]);
-    }, 2500);
 }
