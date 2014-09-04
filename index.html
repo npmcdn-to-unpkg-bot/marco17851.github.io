@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marco Barragan</title>
+	<link rel='stylesheet' type='text/css' href='design.css'>
+</head>
+
+<body>
+	<script src='script_functions.js'></script>
+	<div id='main_screen'>
+		<div id='title'>
+			<p>Marco Barragan</p>
+			<img id='main_image' src='images/me.jpg' title='Picture of Me'></img>
+			<div id='title_blurb'>
+				<p>Hello, world.</p>
+			</div>
+		</div>
+
+		<div id='main_links'>
+			<div id='about_link' class='main_link' onClick='showSection(1)'>
+				<p>About</p>
+				<div id='about_section' class='sections'>
+					<p>I am Marco. You can call me Polo{e}.</p>
+					<p>I've been coding for a few years now. I am a junior at Dartmouth College.</p>
+					<p>I am majoring in computer science and I speak Spanish, English, and French.</p>
+					<p>I am interested in pursuing a career in either the software developing side of computer science or the UX/UI side.</p>
+				</div>
+			</div>
+			<div id='project_link' class='main_link' onClick='showSection(2)'>
+				<p>Projects</p>
+				<div id='project_section' class='sections'>
+					<p>Current Projects</p>
+				</div>
+			</div>
+			<div id='contact_link' class='main_link' onClick='showSection(3)'>
+				<p>Contact</p>
+				<div id='contact_section' class='sections'>
+					<p>Name</p>
+					<p>Email:</p>
+					<p>Phone:</p>
+					<p>Message:</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
