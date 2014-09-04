@@ -25,8 +25,8 @@ function showMain()
 	hidden=document.getElementById("main")
 	hidden.style.display = "block";
 	
-	document.getElementById("main_content").style.background = "#FA5882";
-	document.getElementById("mainLink").style.background = "#FA5882";
+	document.getElementById("main_content").style.background = "#893232";
+	document.getElementById("mainLink").style.background = "#893232";
 		
 	hidden=document.getElementById("about")
 	hidden.style.display = "none";
@@ -49,8 +49,8 @@ function showAbout()
 	
 	hidden=document.getElementById("about")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lightgreen";
-	document.getElementById("aboutLink").style.background = "lightgreen";
+	document.getElementById("main_content").style.background = "#87A96B";
+	document.getElementById("aboutLink").style.background = "#87A96B";
 	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "none";
@@ -72,8 +72,8 @@ function showProjects()
 	
 	hidden=document.getElementById("projects")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "lightblue";
-	document.getElementById("projectsLink").style.background = "lightblue";
+	document.getElementById("main_content").style.background = "#71A6D2";
+	document.getElementById("projectsLink").style.background = "#71A6D2";
 	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "none";
@@ -96,8 +96,8 @@ function showContacts()
 	
 	hidden=document.getElementById("contact")
 	hidden.style.display = "block";
-	document.getElementById("main_content").style.background = "violet";
-	document.getElementById("contactLink").style.background = "violet";
+	document.getElementById("main_content").style.background = "#734F96";
+	document.getElementById("contactLink").style.background = "#734F96";
 }
 
 function loadImage()

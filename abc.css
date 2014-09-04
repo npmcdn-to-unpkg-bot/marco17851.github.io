@@ -66,19 +66,19 @@ body
 
 @keyframes shimmerButton
 {
-	0%   {opacity: .4;}
-	25%  {opacity: .5;}
+	0%   {opacity: .2;}
+	25%  {opacity: .4;}
 	50%  {opacity: .6;}
-	75%  {opacity: .7;}
+	75%  {opacity: .8;}
 	100% {opacity: .9;}
 }
 
 @-webkit-keyframes shimmerButton
 {
-	0%   {opacity: .4;}
-	25%  {opacity: .5;}
+	0%   {opacity: .2;}
+	25%  {opacity: .4;}
 	50%  {opacity: .6;}
-	75%  {opacity: .7;}
+	75%  {opacity: .8;}
 	100% {opacity: .9;}
 }
 
@@ -129,7 +129,7 @@ body
 
 #main_content
 {
-	background-color: #FA5882;
+	background-color: #893232;
 	border: 2px solid black;
 	border-radius: 50px;
 	float: left;
