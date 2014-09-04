@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url(images/ParisView_blur.jpg);
+	background-image: url(images/ParisView.jpg);
 	background-size: cover;
 	display: block;
 	font-family: Garamond;
@@ -33,7 +33,7 @@ p {
 	color: white;
 	font-family: Didot;
 	font-size: 4em;
-	text-shadow: 2px 2px 10px black;
+	text-shadow: -5px -5px 10px black;
 }
 
 #title_blurb p {
@@ -113,12 +113,12 @@ p {
 }
 
 .main_link:hover > p {
-	color: rgb(0, 120, 130);
+	color: rgb(0, 90, 100);
 }
 
 .main_link > p {
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	border-bottom: 1.5px dotted white;
 }
 
@@ -137,4 +137,27 @@ p {
 
 .sections p {
 	color: white;
+}
+
+.project_header {
+	border-bottom: 1px solid white;
+	font-size: 1.3em;
+	max-width: 80vh;
+}
+
+.project_table {
+	margin-bottom: 2%;
+	max-width: 75vh;
+	min-width: 50vh;
+}
+
+th {
+	border-bottom: 1px solid black;
+	color: black;
+	font-size: 1.2em;
+}
+
+.project_title {
+	border-bottom: 1px solid white;
+	font-size: 1.1em;
 }
