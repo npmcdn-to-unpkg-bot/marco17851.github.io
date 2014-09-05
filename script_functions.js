@@ -40,6 +40,7 @@ function showSection(num)
 	}
 }
 
+/* Won't work because Github doesn't work with php, so no messages get sent
 function openContactMenu()
 {
 	var menu=document.getElementById('contact_menu');
@@ -51,3 +52,4 @@ function exitContactMenu()
 	var menu=document.getElementById('contact_menu');
 	menu.style.display = 'none';
 }
+*/

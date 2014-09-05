@@ -14,10 +14,6 @@ body {
 #main_screen {
 	background-color: rgba(0, 0, 0, 0.4);
 	height: 100vh;
-
-	/*margin-left: 25%;
-	margin-right: 25%;
-	*/
 	text-align: center;
 }
 
@@ -97,10 +93,18 @@ p {
 	background-repeat: no-repeat;
 }
 
+#instagram_link:hover {
+	background-image: url('images/logos/Instagram Glyph Blue.png');
+}
+
 #linkedin_link {
 	background-image: url('images/logos/LinkedIn_white.png');
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
+}
+
+#linkedin_link:hover {
+	background-image: url('images/logos/LinkedIn_blue.png');
 }
 
 #twitter_link {
@@ -109,10 +113,28 @@ p {
 	background-repeat: no-repeat;
 }
 
+#twitter_link:hover {
+	background-image: url('images/logos/Twitter_logo_blue.png');
+}
+
 #mail_logo {
 	background-image: url('images/logos/Mail_white.png');
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
+}
+
+#mail_logo:hover {
+	background-image: url('images/logos/Mail_blue.png');
+}
+
+#resume_logo {
+	background-image: url('images/logos/Resume_white.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+#resume_logo:hover {
+	background-image: url('images/logos/Resume_blue.png');
 }
 
 .main_link {
@@ -175,6 +197,19 @@ th {
 	font-size: 1.1em;
 }
 
+td {
+	text-align: right;
+	font-size: 1em;
+	color: white;
+}
+
+.project_table td {
+	font-size: .85em;
+	padding: 1%;
+	text-align: justify;
+	width: 45%;
+}
+/*
 #contact_menu {
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 3px solid white;
@@ -207,23 +242,6 @@ th {
 	width: 22px;
 }
 
-form {
-}
-
-td {
-	text-align: right;
-	font-family: Courier New;
-	font-size: 1.1em;
-	color: white;
-}
-
-.project_table td {
-	font-size: .85em;
-	padding: 1%;
-	text-align: justify;
-	width: 45%;
-}
-
 input {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -253,7 +271,7 @@ input:focus, textarea:focus {
 	border: 2px solid rgb(30, 40, 50);
 }
 
-/*
+
 input:not(:focus):invalid {
 	outline: 1px solid red;
 }
