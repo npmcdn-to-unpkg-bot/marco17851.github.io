@@ -84,11 +84,11 @@ p {
 
 @-webkit-keyframes shimmerLogo
 {
-	0%   {opacity: .6;}
-	25%  {opacity: .7;}
-	50%  {opacity: .8;}
-	75%  {opacity: .9;}
-	100% {opacity: 1;}
+	0%   {opacity: .8; background-size: 45px 45px}
+	25%  {opacity: .85; background-size: 45px 45px}
+	50%  {opacity: .9; background-size: 45px 45px}
+	75%  {opacity: .95; background-size: 45px 45px}
+	100% {opacity: 1; background-size: 45px 45px}
 }
 
 #instagram_link {
@@ -225,13 +225,35 @@ td {
 }
 
 input {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	float: left;
+}
+
+textarea {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input:hover, textarea:hover {
+	border: 2px solid rgb(48, 50, 53);
 }
 
 input[type=submit] {
 	float: middle;
 }
 
+input[type=submit]:hover {
+	opacity: 0.6;
+}
+
+input:focus, textarea:focus {
+	border: 2px solid rgb(30, 40, 50);
+}
+
+/*
 input:not(:focus):invalid {
 	outline: 1px solid red;
 }
@@ -240,7 +262,7 @@ input:focus:invalid {
 	outline: 1px solid blue;
 }
 
-/*
+
 form {
 	color: black;
 	max-width: 35vh;
