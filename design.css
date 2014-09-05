@@ -12,6 +12,7 @@ body {
 }
 
 #main_screen {
+	background-color: rgba(0, 0, 0, 0.4);
 	height: 100vh;
 
 	/*margin-left: 25%;
@@ -108,6 +109,12 @@ p {
 	background-repeat: no-repeat;
 }
 
+#mail_logo {
+	background-image: url('images/logos/Mail_white.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
 .main_link {
 	background: rgba(140, 140, 120, 0.7);
 }
@@ -128,10 +135,10 @@ p {
 	opacity: .7;
 	border-bottom: 1px solid white;
 }
-#contact_link p {
+#project_link p {
 	border-bottom: none;
 }
-#contact_section {
+#project_section {
 	border-bottom: none;
 }
 
@@ -162,6 +169,65 @@ th {
 	font-size: 1.1em;
 }
 
+#contact_menu {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 3px solid white;
+	display: none;
+	max-height: 90%;
+	max-width: 90%;
+	overflow: auto;
+	position: fixed;
+
+	bottom: 10%;
+	left: 5%;
+	right: 5%;
+	top: 10%;
+}
+
+#contact_menu p {
+	border-bottom: 2px solid white;
+}
+
+#exit_mail {
+	background-image: url('images/logos/Exit_white.png');
+	background-size: 22px 22px;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	display: block;
+	height: 22px;
+	float: left;
+	text-indent: -9999px;
+	width: 22px;
+}
+
+form {
+}
+
+td {
+	text-align: right;
+	font-family: Courier New;
+	font-size: 1.1em;
+	color: white;
+}
+
+input {
+	float: left;
+}
+
+input[type=submit] {
+	float: middle;
+}
+
+input:not(:focus):invalid {
+	outline: 1px solid red;
+}
+
+input:focus:invalid {
+	outline: 1px solid blue;
+}
+
+/*
 form {
 	color: black;
 	max-width: 35vh;
@@ -172,3 +238,4 @@ input {
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 }
+*/

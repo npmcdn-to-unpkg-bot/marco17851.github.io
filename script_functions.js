@@ -56,3 +56,15 @@ function showSection(num)
 		header.style.backgroundColor = 'rgba(140, 140, 120, 0.7)';
 	}*/
 }
+
+function openContactMenu()
+{
+	var menu=document.getElementById('contact_menu');
+	menu.style.display = 'inline-block';
+}
+
+function exitContactMenu()
+{
+	var menu=document.getElementById('contact_menu');
+	menu.style.display = 'none';
+}

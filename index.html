@@ -18,7 +18,41 @@
 			<a href='http://instagram.com/marco17851' target='_blank' id='instagram_link' class='logos'>Instagram</a>
 			<a href='http://twitter.com/marco17851' target='_blank' id='twitter_link' class='logos'>Twitter</a>
 			<a href='http://www.linkedin.com/pub/marco-barragan/68/646/a30' target='_blank' id='linkedin_link' class='logos'>LinkedIn</a>
+			<a href='#' id='mail_logo' class='logos' onClick='openContactMenu()'>Contact Me</a>
 
+			<div id='contact_menu'>
+				<a href='#' id='exit_mail' onClick='exitContactMenu()'>Exit Contact</a>
+				<p>Contact Marco</p>
+				<form action='contact_form.asp' id='contact_form' autocomplete='on'>
+					<table id='contact_table'>
+						<tr>
+							<td>First Name:</td>
+							<td><input type='text' name='first_name' required></td>
+						</tr>
+						<tr>
+							<td>Last Name:</td>
+							<td><input type='text' name='last_name' required></td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td><input type='email' name='email' required></td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td><input type='tel' name='telephone'></td>
+						</tr>
+						<tr>
+							<td>Message:</td>
+							<td><textarea name='message' form='contact_form'></textarea></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type='submit'></td>
+							<td></td>
+						</tr>
+					</table>
+				</form>
+			</div>
 		</div>
 
 		<div id='main_links'>
@@ -38,7 +72,7 @@
 					<p class='project_header'>Personal Projects</p>
 					<table class='project_table'>
 						<tr>
-							<th>Sexperts Android App</td>
+							<th>Sexperts Android App</th>
 						</tr>
 						<tr>
 							<td>I am working on an Android application that focuses on sexual health and sexual wellness. Since I am a trained Sexual Health Peer Advisor at Dartmouth College, I decided to create an application that will enable students at Dartmouth (and elsewhere) to find quick and easy information about a variety of sexual topics.
@@ -50,18 +84,6 @@
 					</table>
 					<p class='project_header'>School Projects</p>
 				</div>
-			</div>
-			<div id='contact_link' class='main_link' onClick='showSection(3)'>
-				<p>Contact Me</p>
-
-				<form action='send_message.asp' autocomplete='on'>
-					First Name:<input type='text' name='first_name' required><br>
-					Last Name:<input type='text' name='last_name' required><br>
-					Email:<input type='email' name='email' autocomplete='off' required><br>
-					Phone:<input type='tel' name='telephone' required><br>
-					Message:<input type='text' name='message' required><br>
-					<input type='submit'>
-				</form>
 			</div>
 		</div>
 	</div>
