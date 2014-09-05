@@ -151,6 +151,10 @@ p {
 	border-bottom: 1.5px dotted white;
 }
 
+.main_link > a {
+	text-decoration: none;
+}
+
 .sections {
 	background: rgba(48, 50, 53, 0.9);
 	display: none;
