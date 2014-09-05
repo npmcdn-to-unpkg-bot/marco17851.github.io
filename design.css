@@ -116,11 +116,11 @@ p {
 }
 
 .main_link {
-	background: rgba(140, 140, 120, 0.7);
+	background: rgba(95, 100, 105, 0.7);
 }
 
 .main_link:hover > p {
-	color: rgb(0, 90, 100);
+	color: rgb(10, 30, 50);
 }
 
 .main_link > p {
@@ -130,20 +130,26 @@ p {
 }
 
 .sections {
-	background: rgba(120, 120, 140, 0.9);
+	background: rgba(48, 50, 53, 0.9);
 	display: none;
-	opacity: .7;
 	border-bottom: 1px solid white;
 }
-#project_link p {
+
+#project_link > p {
 	border-bottom: none;
 }
+
 #project_section {
 	border-bottom: none;
 }
 
 .sections p {
 	color: white;
+}
+
+#about_info {
+	font-size: .8em;
+	max-width: 80vh;
 }
 
 .project_header {
@@ -164,24 +170,24 @@ th {
 	font-size: 1.2em;
 }
 
-.project_title {
+.project_header {
 	border-bottom: 1px solid white;
 	font-size: 1.1em;
 }
 
 #contact_menu {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	border: 3px solid white;
 	display: none;
-	max-height: 90%;
-	max-width: 90%;
+	max-height: 40%;
+	max-width: 80%;
 	overflow: auto;
 	position: fixed;
 
 	bottom: 10%;
 	left: 5%;
 	right: 5%;
-	top: 10%;
+	top: 50%;
 }
 
 #contact_menu p {
@@ -209,6 +215,13 @@ td {
 	font-family: Courier New;
 	font-size: 1.1em;
 	color: white;
+}
+
+.project_table td {
+	font-size: .85em;
+	padding: 1%;
+	text-align: justify;
+	width: 45%;
 }
 
 input {

@@ -9,7 +9,7 @@
 	<script src='script_functions.js'></script>
 	<div id='main_screen'>
 		<div id='title'>
-			<img id='main_image' src='images/me.jpg' title='Picture of Me'></img>
+			<img id='main_image' src='images/me_formal.jpg' title='Picture of Me'></img>
 			<div id='title_blurb'>
 				<p>Hello, world.</p>
 				<p>I'm</p>
@@ -22,7 +22,7 @@
 
 			<div id='contact_menu'>
 				<a href='#' id='exit_mail' onClick='exitContactMenu()'>Exit Contact</a>
-				<p>Contact Marco</p>
+				<p>Contact</p>
 				<form action='contact_form.asp' id='contact_form' autocomplete='on'>
 					<table id='contact_table'>
 						<tr>
@@ -58,7 +58,9 @@
 		<div id='main_links'>
 			<div id='about_link' class='main_link' onClick='showSection(1)'>
 				<p>About</p>
-				<div id='about_section' class='sections'>
+			</div>
+			<div id='about_section' class='sections'>
+				<div id='about_info'>
 					<p>I am Marco. You can call me Polo{e}.</p>
 					<p>I've been coding for a few years now. I am a junior at Dartmouth College.</p>
 					<p>I am majoring in computer science and I speak Spanish, English, and French.</p>
@@ -68,22 +70,18 @@
 			</div>
 			<div id='project_link' class='main_link' onClick='showSection(2)'>
 				<p>Projects</p>
-				<div id='project_section' class='sections'>
-					<p class='project_header'>Personal Projects</p>
-					<table class='project_table'>
-						<tr>
-							<th>Sexperts Android App</th>
-						</tr>
-						<tr>
-							<td>I am working on an Android application that focuses on sexual health and sexual wellness. Since I am a trained Sexual Health Peer Advisor at Dartmouth College, I decided to create an application that will enable students at Dartmouth (and elsewhere) to find quick and easy information about a variety of sexual topics.
-							<br>
-							I am working with a friend who is also a peer advisor. She is creating the graphics and the illustrations for the application. The categories that we decided should be included are sexual health, birth control, STIs, pregnancy information, sexual identity and gender expression, kinks, and resources (both at Dartmouth and nationwide).
-							<br>
-							While the focus of the application is to educate Dartmouth students into making safer choices when it comes to sex and knowing the resources on campus, the application will include resources for young people nationwide. I will also provide links to prominent organizations such as Planned Parenthood where students can learn even more.</td>
-						</tr>
-					</table>
-					<p class='project_header'>School Projects</p>
-				</div>
+			</div>
+			<div id='project_section' class='sections'>
+				<p class='project_header'>Personal Projects</p>
+				<table class='project_table'>
+					<tr>
+						<th colspan='2'>Sexperts Android App</th>
+					</tr>
+					<tr>
+						<td>I am working on an Android application that focuses on sexual health and sexual wellness. Since I am a trained Sexual Health Peer Advisor at Dartmouth College, I decided to create an application that will enable students at Dartmouth (and elsewhere) to find quick and easy information about a variety of sexual topics.I am working with a friend who is also a peer advisor. She is creating the graphics and the illustrations for the application.The categories that we decided should be included</td><td>are sexual health, birth control, STIs, pregnancy information, sexual identity and gender expression, kinks, and resources (both at Dartmouth and nationwide).While the focus of the application is to educate Dartmouth students into making safer choices when it comes to sex and knowing the resources on campus, the application will include resources for young people nationwide. I will also provide links to prominent organizations such as Planned Parenthood where students can learn even more.</td>
+					</tr>
+				</table>
+				<p class='project_header'>School Projects</p>
 			</div>
 		</div>
 	</div>
