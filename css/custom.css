@@ -80,6 +80,79 @@
   margin-bottom: 25px;
 }
 
+.logos {
+  display: inline-block;
+  height: 40px;
+  opacity: .5;
+  margin-top: 2%;
+  text-indent: -9999px;
+  width: 40px;
+}
+
+.logos:hover {
+  animation-name: shimmerLogo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  -webkit-animation-name: shimmerLogo;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;  
+}
+
+@keyframes shimmerLogo
+{
+  0%   {opacity: .6;}
+  25%  {opacity: .7;}
+  50%  {opacity: .8;}
+  75%  {opacity: .9;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes shimmerLogo
+{
+  0%   {opacity: .8;}
+  25%  {opacity: .85;}
+  50%  {opacity: .9;}
+  75%  {opacity: .95;}
+  100% {opacity: 1;}
+}
+
+#instagram_link {
+  background-image: url('../images/logos/Instagram Glyph Blue.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+
+#linkedin_link {
+  background-image: url('../images/logos/LinkedIn_blue.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+#twitter_link {
+  background-image: url('../images/logos/Twitter_logo_blue.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+#mail_logo {
+  background-image: url('../images/logos/Mail_blue.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+#resume_logo {
+  background-image: url('../images/logos/Resume_blue.png');
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
 #footer {
   border-top: 2px solid #d2ad21;
   padding-top: 20px;
