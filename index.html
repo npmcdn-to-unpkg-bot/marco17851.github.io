@@ -81,12 +81,12 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div id="about_text" class="col-lg-6 col-sm-6">
+                <div id="about_text" class="col-lg-8 col-sm-8">
                     <h1 id="about_title">Hello, World.</h1>
                     <p id="about_comment">My name is Marco Barragan. <span class="cool_yellow">Enchanté.</span><br>I am a junior at Dartmouth College. I'm studying <span class="cool_yellow">computer science</span> as well as a few foreign <span class="cool_yellow">languages</span> here and there.</p>
                     <a class="btn btn-default page-scroll" href="#skills">Learn More!</a>
                 </div>
-                <div class="col-lg-6 col-sm-6" id="thumbnail_div">
+                <div class="col-lg-4 col-sm-4" id="thumbnail_div">
                     <img id="my_picture" class="thumbnail" src="./images/me_formal.jpg" alt="Picture of me">
                 </div>
             </div>
@@ -205,11 +205,56 @@
                 </div>
                 <div class="col-lg-12">
                     <h6>These are some of my favorite projects.</h6>
-                    <h6><em>[Under Construction]</em></h6>
+                </div>
+            </div>
+            <div class="row projectContainer">
+                <div class="col-lg-4">
+                    <img src="./images/sexperts.png" class="thumbnail projectThumbnail" style="width: 200px; height: 300px" data-toggle="modal" data-target="#sexpertsModal">
+                </div>
+                <div class="col-lg-8">
+                    <p class="projectTitle">Sexperts Android Application</p>
+                    <p class="projectDescription">I am working on an Android application that focuses on sexual health and sexual wellness. Since I am a trained Sexual Health Peer Advisor at Dartmouth College, I decided to create an application that will enable students at Dartmouth (and elsewhere) to find quick and easy information about a variety of sexual topics. I am working with a friend who is also a peer advisor. She is creating the graphics and the illustrations for the application. The categories that we decided should be included are sexual health, birth control, STIs, pregnancy information, sexual identity and gender expression, kinks, and resources (both at Dartmouth and nationwide). While the focus of the application is to educate Dartmouth students into making safer choices when it comes to sex and knowing the resources on campus, the application will include resources for young people nationwide. I will also provide links to prominent organizations such as Planned Parenthood where students can learn even more.</p>
+                </div>
+            </div>
+            <div class="row projectContainer">
+                <div class="col-lg-4">
+                    <img src="./images/amazeing.png" class="thumbnail projectThumbnail" style="width: 200px; height: 300px" data-toggle="modal" data-target="#amazeingModal">
+                </div>
+                <div class="col-lg-8">
+                    <p class="projectTitle">A-Maze-ing Project</p>
+                    <p class="projectDescription">The A-Maze-ing Project was the final project for my Software Design and Implementation course at Dartmouth. We were to find a way for avatars inside the maze to find each other, without knowing anything about the maze, except where the other avatars were located. As a result, my partners and I created our own maze depending on where the avatars    were going and where they were finding walls. This project involved setting up a connection to a server, being able to make each avatar talk to the server one by one, work with different processes, implement an algorithm to find the other avatars, implement a way to create our own maze, and ultimately, show the solution to each maze with simple graphics.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="sexpertsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sexperts Android Application</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./images/sexperts.png" style="max-width: 100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="amazeingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">A-Maze-ing Project</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./images/amazeing.png" style="max-width: 100%">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
