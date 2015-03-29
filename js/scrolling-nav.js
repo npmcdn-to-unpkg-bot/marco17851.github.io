@@ -20,7 +20,7 @@ $(function() {
 
 function initialize() {
     var mapCanvas = document.getElementById('map-canvas');
-    var location = new google.maps.LatLng(43.702688,-72.286111);
+    var location = new google.maps.LatLng(43.704740, -72.286637);
     var mapOptions = {
         center: location,
         zoom: 17,
