@@ -1,6 +1,10 @@
-.navbar {
+.navbar-inverse {
   border: none;
-  opacity: .9;
+  background-color: rgba(4,50,64, .9);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+  background-color: #7cabbf;
 }
 
 .navbar-brand {
@@ -8,18 +12,26 @@
 }
 
 #about_text {
-  background-color: white;
+  color: white;
+  background-color: rgba(88,143,159, .3);
   border-radius: 0px;
   max-width: 750px;
-  opacity: .75;
   padding-bottom: 10px;
 }
 
 #about_title {
-  border-bottom: 2px solid #d2ad21;
   font-size: 4em;
   text-align: left;
   padding-left: 5%;
+}
+
+#about_title:after{
+  content: '';
+  display: block;
+  background: #EAF0F1;
+  height: 4px;
+  max-width: 315px;
+  width: 100%;
 }
 
 #about_comment {
@@ -29,13 +41,16 @@
   max-width: 700px;
 }
 
-.cool_yellow {
-  color: white;
-  background-color: #d2ad21;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  color: #7cabbf;
 }
 
 #my_picture {
@@ -66,10 +81,18 @@
 }
 
 .progress {
-  background-color: black;
+  background-color: #7cabbf;
   padding-left: 0px;
   max-width: 90%;
   height: 20px;
+}
+
+.progress-bar {
+    background: #116077; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right, #116077, #043240); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #116077, #043240); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #116077, #043240); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #116077, #043240); /* Standard syntax */
 }
 
 .glyphicon {
@@ -78,33 +101,39 @@
 
 .projectContainer {
   padding-top: 20px;
-  background-color: rgba(208, 208, 208, .3);
-  border-radius: 30px;
+  background-color: rgba(88,143,159, .3);
   margin-bottom: 20px;
 }
 
 .projectContainer:hover {
-  background-color: rgba(210, 173, 33, .3);
+  background-color: rgba(176,204,216, .3);
 }
 
 .projectTitle {
   font-weight: bold;
   font-size: 2em;
   text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+
+.projectTitle:after {
+  content: '';
+  display: block;
+  background: #EAF0F1;
+  height: 4px;
+  max-width: 100px;
+  width: 100%;
 }
 
 .projectDescription {
   text-align: left;
-  padding-right: 10%;
+  padding: 0px 20px 0px 20px;
 }
 
 .projectThumbnail {
-  float: right;
-}
-
-#map-canvas {
-  height: 300px;
-  margin-bottom: 25px;
+  float: left;
+  width: 100%;
+  max-width: 700px;
 }
 
 .logos {
@@ -185,4 +214,12 @@
   padding-top: 20px;
   border-bottom: 2px solid #d2ad21;
   padding-bottom: 10px;
+}
+
+.modal-dialog {
+  width: 75%;
+}
+
+.modalLabel {
+  text-align: center;
 }

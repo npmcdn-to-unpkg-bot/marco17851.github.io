@@ -15,8 +15,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Google Maps Script -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -83,8 +83,7 @@
             <div class="row">
                 <div id="about_text" class="col-lg-8 col-sm-8">
                     <h1 id="about_title">Hello, World.</h1>
-                    <p id="about_comment">My name is Marco Barragan. <span class="cool_yellow">Enchanté.</span><br>I am a junior at Dartmouth College. I'm studying <span class="cool_yellow">computer science</span> as well as a few foreign <span class="cool_yellow">languages</span> here and there.</p>
-                    <a class="btn btn-default page-scroll" href="#skills">Learn More!</a>
+                    <p id="about_comment">My name is Marco Barragan. Enchanté.</span><br>I am a Dartmouth College alumnus from the class of 2016. I studied computer science</span> and a few foreign languages.
                 </div>
                 <div class="col-lg-4 col-sm-4" id="thumbnail_div">
                     <img id="my_picture" class="thumbnail" src="./images/me_formal.jpg" alt="Picture of me">
@@ -95,169 +94,96 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills-section">
-        <div class="container">
-            <div class="row heading">
-                <div class="col-lg-12">
-                    <h2>My Skills</h2>
-                </div>
-                <div class="col-lg-12">
-                    <h6>Skills that one learns in life.</h6>
-                </div>
-            </div>
-            <div class="row information">
-                <div class="col-lg-6 col-xs-12">
-                    <h2><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Programming Skills</h2>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>Python</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                                <span class="sr-only">65% Complete</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>Java</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                <span class="sr-only">60% Complete</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>C</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                <span class="sr-only">50% Complete</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>HTML/CSS</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
-                                <span class="sr-only">35% Complete</span>
-                            </div>
-                        </div>
+        <div class="title-container col-lg-3 col-md-3 col-sm-3">
+            <h2>Skills</h2>
+            <img src="" class="section-img">
+        </div>
+        <div class="info-container col-lg-9 col-md-9 col-sm-9">
+            <div class="row col-lg-6 col-md-12 col-sm-12">
+                <h3>Programming Languages</h3>
+                <h4>Python</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
                     </div>
                 </div>
-                <div class="col-lg-6 col-xs-12">
-                    <h2><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Multilingual Skills</h2>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>Spanish</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                <span class="sr-only">95% Complete</span>
-                            </div>
-                        </div>
+                <h4>Java</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>English</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                <span class="sr-only">95% Complete</span>
-                            </div>
-                        </div>
+                </div>
+                <h4>JavaScript/Meteor JS</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>French</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                                <span class="sr-only">65% Complete</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-3 skill">
-                            <p>German</p>
-                        </div>
-                        <div class="col-sm-9 col-xs-9 progress">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                <span class="sr-only">20% Complete</span>
-                            </div>
-                        </div>
+                </div>
+                <h4>HTML/CSS</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
                     </div>
                 </div>
             </div>
-
+            <div class="row col-lg-6 col-md-12 col-sm-12">
+                <h3>Spoken Languages</h3>
+                <h4>English</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
+                    </div>
+                </div>
+                <h4>French</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
+                    </div>
+                </div>
+                <h4>German</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
+                    </div>
+                </div>
+                <h4>Spanish</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                        <span class="sr-only">65% Complete</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
-        <div class="container">
-            <div class="row heading">
-                <div class="col-lg-12">
-                    <h2>Sample Projects</h2>
-                </div>
-                <div class="col-lg-12">
-                    <h6>These are some of my favorite projects.</h6>
-                </div>
-            </div>
-            <div class="row projectContainer">
-                <div class="col-lg-4">
-                    <img src="./images/sexperts.png" class="thumbnail projectThumbnail" style="width: 200px; height: 300px" data-toggle="modal" data-target="#sexpertsModal">
-                </div>
-                <div class="col-lg-8">
-                    <p class="projectTitle">Sexperts Android Application</p>
-                    <p class="projectDescription">I am working on an Android application that focuses on sexual health and sexual wellness. Since I am a trained Sexual Health Peer Advisor at Dartmouth College, I decided to create an application that will enable students at Dartmouth (and elsewhere) to find quick and easy information about a variety of sexual topics. I am working with a friend who is also a peer advisor. She is creating the graphics and the illustrations for the application. The categories that we decided should be included are sexual health, birth control, STIs, pregnancy information, sexual identity and gender expression, kinks, and resources (both at Dartmouth and nationwide). While the focus of the application is to educate Dartmouth students into making safer choices when it comes to sex and knowing the resources on campus, the application will include resources for young people nationwide. I will also provide links to prominent organizations such as Planned Parenthood where students can learn even more.</p>
-                </div>
-            </div>
-            <div class="row projectContainer">
-                <div class="col-lg-4">
-                    <img src="./images/amazeing.png" class="thumbnail projectThumbnail" style="width: 200px; height: 300px" data-toggle="modal" data-target="#amazeingModal">
-                </div>
-                <div class="col-lg-8">
+        <div class="title-container col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h2>Projects</h2>
+            <img src="" class="section-img">
+        </div>
+        <div class="info-container col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="row projectContainer" data-toggle="modal" data-target="#amazeingModal">
                     <p class="projectTitle">A-Maze-ing Project</p>
                     <p class="projectDescription">The A-Maze-ing Project was the final project for my Software Design and Implementation course at Dartmouth. We were to find a way for avatars inside the maze to find each other, without knowing anything about the maze, except where the other avatars were located. As a result, my partners and I created our own maze depending on where the avatars    were going and where they were finding walls. This project involved setting up a connection to a server, being able to make each avatar talk to the server one by one, work with different processes, implement an algorithm to find the other avatars, implement a way to create our own maze, and ultimately, show the solution to each maze with simple graphics.</p>
-                </div>
             </div>
-            <div class="row projectContainer">
-                <div class="col-lg-4">
-                    <img src="./images/generator.png" class="thumbnail projectThumbnail" style="width: 200px; height: 300px" data-toggle="modal" data-target="#movieModal">
-                </div>
-                <div class="col-lg-8">
-                    <p class="projectTitle"><a target="_blank" href="http://www.cs.dartmouth.edu/~joannezhao/generator.php">Movie Review Generator</a></p>
-                    <p class="projectDescription">The Movie Review Generator was a group project done for my Computational Linguistics course. Our main motivation was to create short and simple movie reviews that would allow users to obtain the gist of a movie in order for them to choose which movie to watch. This project was done using n-grams and TF-IDF which allowed us to create sentences using real-life movie reviews. We allow the user to choose from a set of movies (as we worked with only ~10,000 reviews for the first few hundred movies in the data file), as well as give them options to whether they want the sentences to come from reviews or if they want the sentence to be generated by the program.<br><br>You can play with the program <a target="_blank" href="http://www.cs.dartmouth.edu/~joannezhao/generator.php">here.</a></p>
-                </div>
+            <div class="row projectContainer" data-toggle="modal" data-target="#rankrModal">
+                    <p class="projectTitle">Rankr</p>
+                    <p class="projectDescription">Rankr was my senior project at Dartmouth. It is a movie ranking website whose users determine movies’ Elo ratings by viewing two movies side-by-side and choosing which is better. The website lists movies ranked by their Elo ratings and can be filtered by genre. It also compiles a user’s personal top 10 list, determined from comparisons the user has made. It also provides movie recommendation that function by 1) matching each user with another user that has a similar (but not too similar) personal top 10 and 2) providing movie recommendations based on movie genres in the personal top 10.</p>
             </div>
         </div>
     </section>
 
+    
+
 
     <!-- Modal -->
-    <div class="modal fade" id="sexpertsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Sexperts Android Application</h4>
-          </div>
-          <div class="modal-body">
-            <img src="./images/sexperts.png" style="max-width: 100%">
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="modal fade" id="amazeingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">A-Maze-ing Project</h4>
+            <h3 class="modal-title modalLabel">A-Maze-ing Project Screenshot</h3>
           </div>
           <div class="modal-body">
             <img src="./images/amazeing.png" style="max-width: 100%">
@@ -265,15 +191,16 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="movieModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal fade" id="rankrModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">A-Maze-ing Project</h4>
+            <h3 class="modal-title modalLabel">Rankr Screenshot</h3>
           </div>
           <div class="modal-body">
-            <img src="./images/generator.png" style="max-width: 100%">
+            <img src="./images/rankr.png" style="max-width: 100%">
           </div>
         </div>
       </div>
@@ -281,95 +208,20 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row heading">
-                <div class="col-lg-12">
-                    <h2>Keep in Touch</h2>
-                    <h6>If you would like to message me, feel free to leave me an email. I appreciate emails with cute baby animal pictures. Also job offers.</h6>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="col-lg-12" id="map-canvas"></div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="col-lg-12">
-                        <p>If you are a recruiter and would like to know more about me, feel free to look at my <a target="_blank" href="./files/Barragan_Resume.pdf">resume</a>, <a target="_blank" href="https://github.com/marco17851">github account</a>, or please <a href="mailto:Marco.A.Barragan.16@dartmouth.edu">email</a> me.</p>
-                    </div>
-                    <div class="col-lg-4 col-xs-3" style="text-align: right">
-                        <label>Address</label>
-                    </div>
-                    <div class="col-lg-8 col-xs-9" style="text-align: left">
-                        <p>0240 Hinman<br>
-                            Dartmouth College<br>
-                            Hanover, NH 03755</p>
-                    </div>
-                    <div class="col-lg-4 col-xs-3" style="text-align: right">
-                        <label>Email</label>
-                    </div>
-                    <div class="col-lg-8 col-xs-9" style="text-align: left">
-                        <p>Marco.A.Barragan.16@dartmouth.edu</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <label>Other Stuff</label>
-                    <div class="row">
-                         <a href='http://instagram.com/marco17851' target='_blank' id='instagram_link' class='logos'>Instagram</a>
-                    </div>
-                    <div class="row">
-                        <a href='http://twitter.com/marco17851' target='_blank' id='twitter_link' class='logos'>Twitter</a>
-                    </div>
-                    <div class="row">
-                        <a href='http://www.linkedin.com/pub/marco-barragan/68/646/a30' target='_blank' id='linkedin_link' class='logos'>LinkedIn</a>
-                    </div>
-                    <div class="row">
-                        <a href='mailto:marco.a.barragan.16@dartmouth.edu' id='mail_logo' class='logos'>Contact Me</a>
-                    </div>
-                    <div class="row">
-                        <a href='files/Barragan_Resume.pdf' target='_blank' id='resume_logo' class='logos'>Resume</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Not supported in Github. PHP issues
-            <form>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="form-group col-lg-12">
-                            <label for="name">Name</label>
-                            <input type="name" class="form-control" id="inputName" placeholder="Enter name" title="At least 2 characters please">
-                        </div>
-                        <div class="form-group col-lg-12">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" title="A valid email please">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="form-group">
-                            <label for="comment">Comments</label>
-                            <textarea name="comment" class="form-control" id="inputComment" cols="3" rows="5" placeholder="Enter your message here" title="At least 10 characters please"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </div>
-                    <div class="col-lg-4" style="text-align: left">
-                        <label for="address">Address:</label>           
-                        <p>0240 Hinman<br>
-                            Dartmouth College<br>
-                            Hanover, NH 03755</p>
-                        <label for="phone">Phone:</label>
-                        <p>914-365-9918</p>
-                    </div>
-                </div>
-            </form>
-            -->
+        <div class="title-container col-lg-3 col-md-3 col-sm-12">
+            <h2>Contact Info</h2>
         </div>
-        <div id="footer">
-            <p>Copyright &copy; 2015 by Marco Barragan</p>
+        <div class="info-container col-lg-9 col-md-9 col-sm-12" style="text-align: center;">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <h4>If you would like to know more about me, feel free to look at my <a target="_blank" href="./files/Barragan_Resume.pdf">resume</a>, <a target="_blank" href="https://github.com/marco17851">github account</a>, or please <a href="mailto:Marco_Barragan@sbcglobal.net">email</a> me with any questions you might have.</h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <a href='http://www.linkedin.com/pub/marco-barragan/68/646/a30' target='_blank' id='linkedin_link' class='logos'>LinkedIn</a>
+                <a href='mailto:marco.a.barragan.16@dartmouth.edu' id='mail_logo' class='logos'>Contact Me</a>
+                <a href='files/Barragan_Resume.pdf' target='_blank' id='resume_logo' class='logos'>Resume</a>
+            </div>
         </div>
     </section>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
